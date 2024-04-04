@@ -25,16 +25,5 @@ public class Util {
         }
         return connection;
     }
-
-
-
-    public void closeConnection() throws SQLException {
-        if (connection != null) {
-            connection.close();
-            connection = null;
-        }
-        System.out.println("Connection close!!!");
-    }
-
-
+    
 }
